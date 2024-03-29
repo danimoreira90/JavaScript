@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* Pixelated font for a game-like feel */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', 'Arial', sans-serif;
+    /* Using a more thematic font */
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background-color: #ff0000;
+    /* Pokéball red */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #000000;
+    /* Like the Pokéball's middle black strip */
+}
+
+#searchInput {
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    font-family: Arial, sans-serif;
+    /* Making the input text more readable */
+}
+
+#searchButton {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    /* Button inspired by the Pokéball design */
+    color: #ff0000;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#searchButton:hover {
+    background-color: #ff0000;
+    /* Swap colors for a lively hover effect */
+    color: #ffffff;
+}
+
+#results {
+    padding: 20px;
+    text-align: center;
+}
+
+.pokemon-card {
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* Soft shadow for depth */
+    width: 200px;
+    /* Fixed width for uniform cards */
+}
+
+.pokemon-card img {
+    width: 100%;
+    /* Make the image responsive to the card's width */
+    height: auto;
+}
+
+.pokemon-name {
+    color: #ff0000;
+    font-weight: bold;
+}
